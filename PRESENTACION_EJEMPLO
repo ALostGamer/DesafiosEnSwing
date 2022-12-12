@@ -1,0 +1,29 @@
+Llevar a cabo en una sola pantalla de JavaSwing lo siguiente:
+  Una parte de inserción de datos
+    Un grupo de RadioButtons para escoger el sexo (Hombre / Mujer / ...)
+      Por defecto ninguno de estos estará seleccionado
+      Debe de seleccionarse un sexo para la inserción de datos
+    Un campo para escribir el nombre (Máximo de 10 caracteres para el nombre)
+      El campo no debe estar vacio para la inserción de datos
+    Un ComboBox para escoger entre distintas ciudades
+      Las ciudades serán (León / Palencia / Burgos / Zamora / Valladolid / Soria / Salamanca / Ävila / Segovia)
+      Por defecto ninguna estará seleccionada
+      Debe de seleccionarse una ciudad para la inserción de datos
+    Dos JSlider y un JSpinner
+      Estos tres componentes servirán para modificar algún color en la pantalla (RGB(0-255,0-255,0-255))
+      Cuando se modifique cualquiera de los tres elementos el color irá cambiando conforme al formato RGB
+      El formato RGB posee los límites desde 0 hasta 255
+    Un botón Enviar
+      El botón recibirá todos los datos, en caso de faltar por rellenar o seleccionar alguno se avisará de ello (JOptionPane, por ejemplo)
+      El botón enviará los datos a una tabla que contendrá 3 columnas, (Sexo / Nombre / Ciudad)
+      El botón insertará datos en la tabla, no sobreescribirá los ya existentes.
+    Un botón Limpiar
+      El botón se encargará de borrar los campos seleccionados o escritos de entre todo el "formulario" creado
+      El botón mostrará un aviso (JOptionPane, por ejemplo) en caso de que no haya ninguno de los 3 campos que limpiar
+      
+  Una parte de visualización datos
+    Una tabla que contendrá 3 columnas, (Sexo / Nombre / Ciudad)
+      La tabla permitirá la inserción de los datos que se rellenen en el formulario
+    Un botón de borrar
+      El botón borrará absolutamente todos los datos de la tabla, dejando está vacía solo con las 3 columnas (como debería presentarse al inicio la tabla)
+      
