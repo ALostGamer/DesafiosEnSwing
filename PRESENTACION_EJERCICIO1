@@ -1,0 +1,32 @@
+Realizar un formulario con los siguientes componentes:
+  Una serie de Etiquetas:
+    Nombre: / Sexo: / Deporte: / Edad: / Salario:
+    
+  Una serie de componentes de Entrada de datos:
+    Un Campo de Texto para introducir el nombre
+      Mínimo de caracteres 1, máximo de caracteres 10
+      El campo no debe estar vacio para insertar datos
+    Un grupo de 'RadioButton' para seleccionar el sexo (Hombre / Mujer / ...)
+      Inicialmente sin seleccionar uno predeterminado
+      Se debe tener uno seleccionado para insertar datos
+    Un 'ComboBox' para seleccionar el deporte /Fútbol / Baloncesto / Artes Marciales)
+      Inicialmente estará seleccionado "Artes Marciales"
+      Se debe tener uno seleccionado para insertar datos
+    Un 'Spinner' para seleccionar la edad
+      Mínimo de 18, máximo de 99, saltos de 5, iniciado en 25
+      Se debe tener seleccionado un valor válido en el rango para insertar datos
+    Un 'Slider' para seleccionar el salario
+      Mínimo 950, máximo 3000, saltos de 500, iniciado en 1500
+      
+  Una serie de Campos de Texto de Salida de Datos:
+    Nombre / Sexo / Deporte / Edad / Salario
+    Mostraremos todo tipo de información recogida en cada uno de los Campos de Texto
+    
+  Un botón de Guardar
+    El botón avisará (JOptionPane, por ejemplo) si falta algún campo por rellenar
+    El botón solo estará habilitado cuando los campos nombre, edad y deporte hayan sido seleccionados / escritos
+  Un botón de Resetear
+    El botón avisará (JOptionPane, por ejemplo) si no hay ningún campo a resetear
+    El botón reseteará a los valores iniciales todos los componentes, tanto los de entrada de datos como los de salida
+    El botón solo estará habilitado cuando cualquiera de los campos existenes en el formulario haya sido modificado y,
+    por ende, se tenga algún valor que resetear en el formulario.
