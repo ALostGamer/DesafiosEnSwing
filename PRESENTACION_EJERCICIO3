@@ -1,0 +1,7 @@
+Realizar en una ventana de JavaSwing un botón que inicialice un componente 'JFileChooser'
+  Este componente tendrá el filto de leer documento de texto .txt
+  Este componente se abrirá en la carpeta activa del propio proyecto
+  
+  Seria recomendable mostrar por consola un mensaje en caso de que el usuario seleccione un archivo .txt
+  y otro distintos en caso de que no seleccione nada de lo que esperamos
+  Sería recomendable eliminar el filtro predeterminado del 'JFileChooser' para seleccionar cualquier tipo de archivo
