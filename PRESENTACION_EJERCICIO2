@@ -1,0 +1,18 @@
+Agregar a una misma pantalla de Java Swing los siguientes componentes:
+  Dos paneles distintos, con un texto de ejemplo en su interior.
+    Este texto de ejemplo será con el que trabajemos constantemente y donde realizaremos los cambios sobre el panel activo
+  Un 'ToggleButton' con el cual seleccionaremos con cual de los dos paneles queremos trabajar, no trabajaremos con ambos a la vez.
+  Un 'MenuBar' con los siguientes elementos:
+    Un 'menu' para resetear por defecto el texto del primer panel, independientemente de si este está seleccionado por el 'ToggleButton' o no
+    Un 'menu' para resetear por defecto el texto del segundo panel, independientemente de si este está seleccionado por el 'ToggleButton' o no
+    Un 'menu' (opciones) con los siguientes 'menuItems':
+      Un 'menu' (TamañoLetra) con los siguientes 'menuItems':
+        Un 'menuItem' (12) que cambia el tamaño de la letra del texto interno al panel activo a 12.
+        Un 'menuItem' (16) que cambia el tamaño de la letra del texto interno al panel activo a 16.
+      Un 'menu' (ColorLetra) con los siguientes 'menuItems':
+        Un 'menuItem' (rojo) que cambia el color de la letra del texto interno al panel activo por color rojo.
+        Un 'menuItem' (verde) que cambia el color de la letra del texto interno al panel activo por color verde.
+        Un 'menuItem' (azul) que cambia el color de la letra del texto interno al panel activo por color azul.
+      Un 'menu' (Tipografía) con los siguientes 'menuItems':
+        Un 'menuItem' (tipografía_1) que cambia el tipo de letra del texto interno al panel activo por una que el usuario elija.
+        Un 'menuItem' (tipografía_2) que cambia el tipo de letra del texto interno al panel activo por otra que el usuario elija.
